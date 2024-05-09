@@ -7,7 +7,7 @@ import axios from "axios";
 import back3 from "../assets/back3.jpg";
 
 
-
+//
 const Post = () => {
   const [clickImageUpload, setClickImageUpload] = useState(true);
   const [clickVideoUpload, setClickVideoUpload] = useState(false);
