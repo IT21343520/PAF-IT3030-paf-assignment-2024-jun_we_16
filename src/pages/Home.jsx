@@ -11,7 +11,7 @@ import { AiFillEdit } from "react-icons/ai";
 import TimeAgo from "../components/TimeAgo";
 import back1 from "../assets/back1.jpg";
 
-//
+//home
 const Home = () => {
   const [post, setPost] = useState([]);
 
