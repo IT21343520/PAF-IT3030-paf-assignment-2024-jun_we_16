@@ -16,6 +16,7 @@ const formSchema = yup.object().shape({
   description: yup.string().required("Description is required"),
 });
 
+//image upload
 const ImageUpload = ({ post, editPost }) => {
   const [images, setImages] = useState([]);
   const [imageURLs, setImageURLs] = useState([]);
