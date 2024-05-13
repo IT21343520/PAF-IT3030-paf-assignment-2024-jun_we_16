@@ -71,7 +71,7 @@ const Home = () => {
       toast.error("Server error");
     }
   };
-
+//delete post
   const deletePost = async ({ postId }) => {
     console.log(postId);
     try {
