@@ -11,12 +11,13 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 import back1 from "../assets/back4.jpg";
 
-//
+
 const formSchema = yup.object().shape({
   email: yup.string().email().required(),
   password: yup.string().min(6).required(),
 });
 
+//login creating
 const Login = () => {
   const {
     register,
