@@ -96,6 +96,7 @@ const ImageUpload = ({ post, editPost }) => {
       console.log("Image urls", imageUrls);
       console.log("Post", imageUrls.length > 0 ? imageUrls : post.images);
 
+      //update post
       const updatePost = {
         ...data,
         images: imageUrls.length > 0 ? imageUrls : post.images,
