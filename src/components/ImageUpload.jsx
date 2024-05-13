@@ -74,6 +74,7 @@ const ImageUpload = ({ post, editPost }) => {
     }
   }
 
+  //edit post
   const onSubmit = async (data) => {
     if (!editPost) {
       if (images.length === 0) {
