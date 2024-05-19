@@ -32,6 +32,8 @@ const formSchema = yup.object().shape({
   description: yup.string().required("Description is required"),
 });
 
+
+//video upload modified
 const VideoUpload = ({ post, editPost }) => {
   const [video, setVideo] = useState(null);
   const [videoURL, setVideoURL] = useState(null);
