@@ -113,7 +113,7 @@ const ImageUpload = ({ post, editPost }) => {
 
       console.log(postData);
 
-
+//post update success message
       if (editPost) {
         updatePost.id = post.id;
         try {
