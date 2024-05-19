@@ -115,6 +115,7 @@ const VideoUpload = ({ post, editPost }) => {
         author: user.username,
       };
 
+      //post updated successfully
       if (editPost) {
         updateData.id = post.id;
         console.log(updateData);
